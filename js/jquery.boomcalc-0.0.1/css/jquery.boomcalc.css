@@ -1,0 +1,96 @@
+    .boomcalc {
+        border: 1px solid #ccc;
+        font-family: Arial;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E8E8E8), to(#B0B0B0), color-stop(1,#333333));
+        background-image: -moz-linear-gradient(19% 75% 90deg,#ababab, #c9c9c9, #c7c7c7 100%);
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .boomcalc .display {
+        background-color: white; 
+        border: solid 1px #ccc;
+        text-align: right;
+        height: 10%;
+        padding-top: 3%;
+        padding-right: 2%;
+        background-image: -webkit-gradient(linear, 0% 62%, 0% 100%, from(#EBEBEB), to(#D4D4D4), color-stop(1,#FFFFFF));
+    }
+
+    .boomcalc .buttons {    
+        text-shadow: #ddd 1px 1px 0;
+        text-shadow: 0px 1px 0 #e5e5ee;
+    }
+
+    .boomcalc .memory-buttons {
+        padding-top: 2%;
+        width: 100%;
+        float: left;
+    }
+
+    .boomcalc .primary-buttons {
+        padding-top: 2%;
+        width: 80%;
+        float: left;
+    }
+
+    .boomcalc .number {
+        color: #black;
+    }
+
+    .boomcalc .operation {
+        color: red;
+    }
+    
+    .boomcalc .primary-buttons input {
+        width: 33.333333%;
+        height: 18%;
+    }
+
+    .boomcalc input {    
+        border: solid 1px #ccc;
+        margin: 0;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .boomcalc input:hover {
+        background-color: #F2EEEE;
+    }
+
+    .boomcalc input:active {
+        background-color: #f7f7f7;
+    }
+
+    .boomcalc .memory-buttons input {
+        width: 20%;
+        height: 10%;
+        border: solid 1px #ccc;
+    }
+
+    .boomcalc .op-buttons {
+        padding-top: 2%;
+        width: 18%;
+        float: right;
+    }
+        
+    .boomcalc .op-buttons input {
+        width: 100%;
+        height: 14.5%;
+    }
+
+    .boomcalc .status-box {
+        font-size: 85%;
+        width: 20%;
+        float: right;
+        text-align: center;
+    }
+    
+    .boomcalc .status-text {
+        vertical-align: middle;
+        padding-top: 2%;
+        color: #808080;
+    }
+
+
